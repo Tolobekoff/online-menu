@@ -1,0 +1,123 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+
+}
+a{
+    text-decoration: none;
+}
+body {
+  background: #95B9C9;
+}
+.container {
+    width: 85%;
+    margin: 0 auto;
+}
+#header {
+padding: 10px 0;
+background-color: #fff;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.admin-link a {
+    margin: 0 20px;
+    /* color: #000; */
+font-size: 24px;
+font-weight: 500;
+line-height: normal;
+}
+.menu {
+    color:#BD1D1D ;
+}
+.order {
+    color:#000 ;
+}
+.admin {
+    color: black;
+}
+.admin-link a:hover {
+    color: #BD1D1D;
+} 
+.back-font {
+    width: 290px;
+height: 260px;
+flex-shrink: 0;
+border-radius: 15px;
+background: #D9D9D9;
+margin: 30px 0;
+}
+.div2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 15px;
+}
+
+.addBtn {
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(8, 158, 8);
+}
+.delBtn {
+    padding: 8px;
+    margin: 0 10px;
+    background-color: #BD1D1D;
+    border: none;
+    border-radius: 5px;
+}
+.basketBtn {
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    background-color: orange;
+}
+.foodImg {
+    width: 250px;
+    height: 180px;
+    margin: 10px 10px 0 20px;
+    border-radius: 10px;
+}
+.div3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px 0;
+}
+.nameFood {
+    color: #000;
+font-size: 24px;
+font-weight: 500;
+line-height: normal;
+letter-spacing: 0.72px;
+margin-left: 20px;
+}
+.priceFood {
+    color: #000;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.72px;   
+}
+.h-1 {
+    margin: 15px 0;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    color: #33332D;
+font-size: 42px;
+font-weight: 600;
+line-height: normal;
+letter-spacing: 3.2px;
+}
+.list {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+    flex-wrap: wrap;
+}

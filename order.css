@@ -1,0 +1,76 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+body {
+  background: #95B9C9;
+}
+.container {
+    width: 85%;
+    margin: 0 auto;
+}
+#header {
+padding: 10px 0;
+background-color: #fff;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.admin-link a {
+    margin: 0 20px;
+    /* color: #000; */
+font-size: 24px;
+font-weight: 500;
+line-height: normal;
+}
+.menu {
+    color:#000 ;
+}
+.order {
+    color:#BD1D1D ;
+}
+.admin {
+    color: black;
+}
+.admin-link a:hover {
+    color: #BD1D1D;
+}
+
+.orderDiv {
+background-color: #D9D9D9;
+border-radius: 10px;
+height: 80px;
+width: 300px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 0 10px ;
+
+}
+.orderName {
+    color: #000;
+font-size: 36px;
+font-weight: 500;
+line-height: normal;
+letter-spacing: 1.08px;
+}
+.orderPrice {
+    color: #000;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 1.08px;
+}
+.orderDel {
+    color: #BD1D1D;
+    padding: 10px 30px;
+    border-radius: 8px;
+    border: 1.7px solid greenyellow;
+}
